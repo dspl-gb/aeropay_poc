@@ -103,9 +103,6 @@ export default function LoginClient() {
       <div className="relative hidden flex-col justify-between bg-[image:var(--gradient-brand)] p-12 lg:flex">
         <div className="flex items-center gap-3">
           <AeroLogo size={40} />
-          <span className="text-lg font-semibold tracking-tight text-primary-foreground">
-            AeroPay
-          </span>
         </div>
         <div className="max-w-sm">
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-primary-foreground">
@@ -134,7 +131,6 @@ export default function LoginClient() {
         <div className="w-full max-w-sm">
           <div className="flex items-center gap-3 lg:hidden">
             <AeroLogo size={38} />
-            <span className="text-lg font-semibold tracking-tight">AeroPay</span>
           </div>
 
           <h1 className="mt-8 text-2xl font-bold tracking-tight lg:mt-0">
