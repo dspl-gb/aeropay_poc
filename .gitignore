@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Leftover build artifacts from the previous Vite/Nitro setup
+.output/
+.wrangler/
+
+# Environment (never commit secrets — use .env.example as a template)
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Supabase CLI temp files (linked project metadata)
+supabase/.temp/
+
+# Local archives and portable tooling
+*.zip
+node-v*/
+
+# Vercel
+.vercel
+
+# Test / coverage
+coverage/
+
+# Misc
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

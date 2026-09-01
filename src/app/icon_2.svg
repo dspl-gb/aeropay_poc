@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="386" height="143" viewBox="0 0 386 143">
+  <rect width="386" height="143" fill="#f4f4f4"/>
+
+  <!-- Brand name -->
+  <text x="5" y="91"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="54" font-weight="700" letter-spacing="-2"
+        fill="#07542d">Greenback</text>
+
+  <!-- Tagline -->
+  <text x="48" y="123"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="20" font-weight="400"
+        fill="#4b4b4b">Cash Back on Cannabis</text>
+
+  <!-- Cash / leaf icon -->
+  <g transform="translate(265,21)" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Rear bill strokes -->
+    <path d="M19 61 L7 57 L4 17 L68 4 L73 9" stroke="#07542d" stroke-width="5"/>
+    <path d="M73 28 L63 72" stroke="#07542d" stroke-width="5"/>
+    <path d="M84 31 L68 78" stroke="#07542d" stroke-width="5"/>
+    <path d="M94 34 L78 78" stroke="#07542d" stroke-width="5"/>
+
+    <!-- Main bill -->
+    <path d="M3 17 L67 4 L66 47 L9 56 Z" fill="#07542d" stroke="#07542d" stroke-width="2"/>
+    <path d="M10 21 L61 11 L60 42 L13 49 Z" stroke="#8bc34a" stroke-width="2"/>
+
+    <!-- Dollar sign -->
+    <text x="31" y="40"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="34" font-weight="700"
+          fill="#ffffff" stroke="none">$</text>
+
+    <!-- Leaf -->
+    <path d="M68 3 C79 -2 91 -2 99 -4 C97 7 92 16 81 20 C76 21 71 19 68 16 C72 11 77 7 84 3"
+          fill="#8bc34a" stroke="#07542d" stroke-width="1.5"/>
+  </g>
+</svg>
