@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const LOGO_SRC = "/GB logo.jpg";
+const LOGO_SRC = "/GB_logo.png";
 
 export function AeroLogo({ size = 36 }: { size?: number }) {
   return (
